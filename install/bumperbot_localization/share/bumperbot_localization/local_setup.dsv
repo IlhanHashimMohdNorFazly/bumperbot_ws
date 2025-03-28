@@ -1,3 +1,1 @@
-source;share/bumperbot_localization/environment/ament_prefix_path.sh
-source;share/bumperbot_localization/environment/path.sh
-source;share/bumperbot_localization/environment/pythonpath.sh
+/home/ilhan/bumperbot_ws/build/bumperbot_localization/ament_cmake_environment_hooks/local_setup.dsv

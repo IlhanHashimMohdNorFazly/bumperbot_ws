@@ -1,0 +1,46 @@
+[0.021s] Invoking command in '/home/ilhan/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/ilhan/bumperbot_ws/src/bumperbot_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilhan/bumperbot_ws/install/bumperbot_mapping
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.160s] -- The CXX compiler identification is GNU 11.4.0
+[0.169s] -- Detecting C compiler ABI info
+[0.247s] -- Detecting C compiler ABI info - done
+[0.254s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.254s] -- Detecting C compile features
+[0.255s] -- Detecting C compile features - done
+[0.257s] -- Detecting CXX compiler ABI info
+[0.323s] -- Detecting CXX compiler ABI info - done
+[0.329s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.329s] -- Detecting CXX compile features
+[0.329s] -- Detecting CXX compile features - done
+[0.330s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.473s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.523s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.545s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.606s] -- Added test 'lint_cmake' to check CMake code style
+[0.607s] -- Added test 'xmllint' to check XML markup files
+[0.607s] -- Configuring done
+[0.609s] -- Generating done
+[0.610s] -- Build files have been written to: /home/ilhan/bumperbot_ws/build/bumperbot_mapping
+[0.614s] Invoked command in '/home/ilhan/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/ilhan/bumperbot_ws/src/bumperbot_mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilhan/bumperbot_ws/install/bumperbot_mapping
+[0.617s] Invoking command in '/home/ilhan/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/ilhan/bumperbot_ws/build/bumperbot_mapping -- -j16 -l16
+[0.662s] Invoked command in '/home/ilhan/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/ilhan/bumperbot_ws/build/bumperbot_mapping -- -j16 -l16
+[0.664s] Invoking command in '/home/ilhan/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/ilhan/bumperbot_ws/build/bumperbot_mapping
+[0.670s] -- Install configuration: ""
+[0.670s] -- Execute custom install script
+[0.671s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[0.680s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[0.687s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[0.697s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[0.704s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[0.714s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[0.720s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[0.730s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[0.736s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[0.746s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[0.755s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[0.763s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[0.772s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[0.780s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[0.789s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[0.796s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[0.806s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[0.816s] Invoked command in '/home/ilhan/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/ilhan/bumperbot_ws/build/bumperbot_mapping

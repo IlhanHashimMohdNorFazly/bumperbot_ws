@@ -1,1 +1,1 @@
-bumperbot_localization
+/home/ilhan/bumperbot_ws/build/bumperbot_localization/ament_cmake_python/bumperbot_localization/bumperbot_localization.egg-info/top_level.txt

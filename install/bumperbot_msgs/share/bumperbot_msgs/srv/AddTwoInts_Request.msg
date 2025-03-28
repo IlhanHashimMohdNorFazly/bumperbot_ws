@@ -1,3 +1,1 @@
-# Request
-int64 a
-int64 b
+/home/ilhan/bumperbot_ws/build/bumperbot_msgs/rosidl_cmake/srv/AddTwoInts_Request.msg

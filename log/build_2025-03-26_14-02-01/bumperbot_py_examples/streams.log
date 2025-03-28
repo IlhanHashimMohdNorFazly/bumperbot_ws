@@ -1,0 +1,24 @@
+[0.366s] Invoking command in '/home/ilhan/bumperbot_ws/build/bumperbot_py_examples': CMAKE_PREFIX_PATH=/home/ilhan/bumperbot_ws/install/bumperbot_msgs:/home/ilhan/bumperbot_ws/install/bumperbot_mapping:/home/ilhan/bumperbot_ws/install/bumperbot_utils:/home/ilhan/bumperbot_ws/install/bumperbot_cpp_examples:/home/ilhan/bumperbot_ws/install/bumperbot_localization:/home/ilhan/bumperbot_ws/install/bumperbot_firmware:/home/ilhan/bumperbot_ws/install/bumperbot_description:/home/ilhan/bumperbot_ws/install/bumperbot_controller:/home/ilhan/bumperbot_ws/install/bumperbot_bringup LD_LIBRARY_PATH=/home/ilhan/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/ilhan/bumperbot_ws/install/bumperbot_firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ilhan/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ilhan/bumperbot_ws/build/bumperbot_py_examples/build --no-deps symlink_data
+[0.512s] running develop
+[0.602s] running egg_info
+[0.602s] writing bumperbot_py_examples.egg-info/PKG-INFO
+[0.602s] writing dependency_links to bumperbot_py_examples.egg-info/dependency_links.txt
+[0.602s] writing entry points to bumperbot_py_examples.egg-info/entry_points.txt
+[0.602s] writing requirements to bumperbot_py_examples.egg-info/requires.txt
+[0.602s] writing top-level names to bumperbot_py_examples.egg-info/top_level.txt
+[0.603s] reading manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.604s] writing manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.604s] running build_ext
+[0.604s] Creating /home/ilhan/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot-py-examples.egg-link (link to .)
+[0.605s] Installing simple_lifecycle_node script to /home/ilhan/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.605s] Installing simple_parameter script to /home/ilhan/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.605s] Installing simple_publisher script to /home/ilhan/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.605s] Installing simple_service_client script to /home/ilhan/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.605s] Installing simple_service_server script to /home/ilhan/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.605s] Installing simple_subscriber script to /home/ilhan/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.605s] Installing simple_tf_kinematics script to /home/ilhan/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.605s] Installing simple_turtlesim_kinematics script to /home/ilhan/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.605s] 
+[0.605s] Installed /home/ilhan/bumperbot_ws/build/bumperbot_py_examples
+[0.605s] running symlink_data
+[0.622s] Invoked command in '/home/ilhan/bumperbot_ws/build/bumperbot_py_examples' returned '0': CMAKE_PREFIX_PATH=/home/ilhan/bumperbot_ws/install/bumperbot_msgs:/home/ilhan/bumperbot_ws/install/bumperbot_mapping:/home/ilhan/bumperbot_ws/install/bumperbot_utils:/home/ilhan/bumperbot_ws/install/bumperbot_cpp_examples:/home/ilhan/bumperbot_ws/install/bumperbot_localization:/home/ilhan/bumperbot_ws/install/bumperbot_firmware:/home/ilhan/bumperbot_ws/install/bumperbot_description:/home/ilhan/bumperbot_ws/install/bumperbot_controller:/home/ilhan/bumperbot_ws/install/bumperbot_bringup LD_LIBRARY_PATH=/home/ilhan/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/ilhan/bumperbot_ws/install/bumperbot_firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ilhan/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ilhan/bumperbot_ws/build/bumperbot_py_examples/build --no-deps symlink_data

@@ -1,0 +1,9 @@
+[0.008s] Invoking command in '/home/ilhan/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/ilhan/bumperbot_ws/install/bumperbot_msgs:/home/ilhan/bumperbot_ws/install/bumperbot_mapping:/home/ilhan/bumperbot_ws/install/bumperbot_utils:/home/ilhan/bumperbot_ws/install/bumperbot_cpp_examples:/home/ilhan/bumperbot_ws/install/bumperbot_localization:/home/ilhan/bumperbot_ws/install/bumperbot_firmware:/home/ilhan/bumperbot_ws/install/bumperbot_description:/home/ilhan/bumperbot_ws/install/bumperbot_controller:/home/ilhan/bumperbot_ws/install/bumperbot_bringup:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/ilhan/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/ilhan/bumperbot_ws/install/bumperbot_firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ilhan/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.056s] [ 12%] Built target simple_service_client
+[0.058s] [ 25%] Built target simple_publisher
+[0.060s] [ 37%] Built target simple_subscriber
+[0.063s] [ 50%] Built target simple_tf_kinematics
+[0.063s] [ 62%] Built target simple_lifecycle_node
+[0.063s] [ 75%] Built target simple_parameter
+[0.064s] [ 87%] Built target simple_service_server
+[0.064s] [100%] Built target simple_turtlesim_kinematics

@@ -315,17 +315,17 @@ bumperbot_msgs__rosidl_typesupport_cpp/fast:
 .PHONY : bumperbot_msgs__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_bumperbot_msgs
+# Target rules for targets named ament_cmake_python_symlink_bumperbot_msgs
 
 # Build rule for target.
-ament_cmake_python_copy_bumperbot_msgs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_bumperbot_msgs
-.PHONY : ament_cmake_python_copy_bumperbot_msgs
+ament_cmake_python_symlink_bumperbot_msgs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_bumperbot_msgs
+.PHONY : ament_cmake_python_symlink_bumperbot_msgs
 
 # fast build rule for target.
-ament_cmake_python_copy_bumperbot_msgs/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_bumperbot_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_bumperbot_msgs.dir/build
-.PHONY : ament_cmake_python_copy_bumperbot_msgs/fast
+ament_cmake_python_symlink_bumperbot_msgs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_bumperbot_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_bumperbot_msgs.dir/build
+.PHONY : ament_cmake_python_symlink_bumperbot_msgs/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_bumperbot_msgs_egg
@@ -875,7 +875,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_bumperbot_msgs_egg"
-	@echo "... ament_cmake_python_copy_bumperbot_msgs"
+	@echo "... ament_cmake_python_symlink_bumperbot_msgs"
 	@echo "... bumperbot_msgs"
 	@echo "... bumperbot_msgs__cpp"
 	@echo "... bumperbot_msgs__py"

@@ -1,1 +1,1 @@
-rclcpp;rclpy;geometry_msgs;std_msgs;sensor_msgs;nav_msgs;tf2_ros;tf2;eigen;tf_transformations;ros2launch;robot_state_publisher;xacro;controller_manager;joy;joy_teleop;ros2_controllers;ros2_control;ament_lint_auto;ament_lint_common
+/home/ilhan/bumperbot_ws/build/bumperbot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller

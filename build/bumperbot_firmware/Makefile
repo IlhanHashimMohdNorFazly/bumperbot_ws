@@ -198,17 +198,17 @@ bumperbot_firmware_uninstall/fast:
 .PHONY : bumperbot_firmware_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_bumperbot_firmware
+# Target rules for targets named ament_cmake_python_symlink_bumperbot_firmware
 
 # Build rule for target.
-ament_cmake_python_copy_bumperbot_firmware: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_bumperbot_firmware
-.PHONY : ament_cmake_python_copy_bumperbot_firmware
+ament_cmake_python_symlink_bumperbot_firmware: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_bumperbot_firmware
+.PHONY : ament_cmake_python_symlink_bumperbot_firmware
 
 # fast build rule for target.
-ament_cmake_python_copy_bumperbot_firmware/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_bumperbot_firmware.dir/build.make CMakeFiles/ament_cmake_python_copy_bumperbot_firmware.dir/build
-.PHONY : ament_cmake_python_copy_bumperbot_firmware/fast
+ament_cmake_python_symlink_bumperbot_firmware/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_bumperbot_firmware.dir/build.make CMakeFiles/ament_cmake_python_symlink_bumperbot_firmware.dir/build
+.PHONY : ament_cmake_python_symlink_bumperbot_firmware/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_bumperbot_firmware_egg
@@ -348,7 +348,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_bumperbot_firmware_egg"
-	@echo "... ament_cmake_python_copy_bumperbot_firmware"
+	@echo "... ament_cmake_python_symlink_bumperbot_firmware"
 	@echo "... bumperbot_firmware_uninstall"
 	@echo "... uninstall"
 	@echo "... bumperbot_firmware"

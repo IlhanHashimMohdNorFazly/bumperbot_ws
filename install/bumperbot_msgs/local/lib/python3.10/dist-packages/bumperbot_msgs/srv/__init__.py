@@ -1,2 +1,1 @@
-from bumperbot_msgs.srv._add_two_ints import AddTwoInts  # noqa: F401
-from bumperbot_msgs.srv._get_transform import GetTransform  # noqa: F401
+/home/ilhan/bumperbot_ws/build/bumperbot_msgs/rosidl_generator_py/bumperbot_msgs/srv/__init__.py

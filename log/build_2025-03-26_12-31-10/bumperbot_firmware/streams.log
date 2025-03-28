@@ -1,0 +1,111 @@
+[0.012s] Invoking command in '/home/ilhan/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/ilhan/bumperbot_ws/src/bumperbot_firmware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilhan/bumperbot_ws/install/bumperbot_firmware
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.165s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.165s] -- Detecting C compile features
+[0.165s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.233s] -- Detecting CXX compiler ABI info - done
+[0.240s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.240s] -- Detecting CXX compile features
+[0.241s] -- Detecting CXX compile features - done
+[0.242s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.382s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.458s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.477s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.516s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.519s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.524s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.572s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.574s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.642s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.673s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.717s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.726s] -- Looking for pthread.h
+[0.784s] -- Looking for pthread.h - found
+[0.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.849s] -- Found Threads: TRUE  
+[0.903s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.904s] -- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.064s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.064s] -- Checking for module 'libserial'
+[1.079s] --   Found libserial, version 1.0.0
+[1.249s] -- Configuring done
+[1.276s] -- Generating done
+[1.280s] -- Build files have been written to: /home/ilhan/bumperbot_ws/build/bumperbot_firmware
+[1.289s] Invoked command in '/home/ilhan/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/ilhan/bumperbot_ws/src/bumperbot_firmware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ilhan/bumperbot_ws/install/bumperbot_firmware
+[1.290s] Invoking command in '/home/ilhan/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/ilhan/bumperbot_ws/build/bumperbot_firmware -- -j16 -l16
+[1.339s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[1.339s] [ 33%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[1.344s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[1.351s] [ 50%] Built target ament_cmake_python_symlink_bumperbot_firmware
+[1.538s] running egg_info
+[1.539s] creating bumperbot_firmware.egg-info
+[1.539s] writing bumperbot_firmware.egg-info/PKG-INFO
+[1.539s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[1.539s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[1.540s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.541s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.542s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.575s] [ 50%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[5.094s] [ 66%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[5.260s] [ 66%] Built target bumperbot_firmware
+[5.273s] [ 83%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[5.467s] [ 83%] Built target simple_serial_receiver
+[12.506s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[12.970s] [100%] Built target simple_serial_transmitter
+[12.986s] Invoked command in '/home/ilhan/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/ilhan/bumperbot_ws/build/bumperbot_firmware -- -j16 -l16
+[12.989s] Invoking command in '/home/ilhan/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/ilhan/bumperbot_ws/build/bumperbot_firmware
+[13.000s] -- Install configuration: ""
+[13.000s] -- Execute custom install script
+[13.001s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[13.013s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[13.026s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[13.037s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[13.049s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[13.058s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[13.069s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py
+[13.080s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/mpu6050_driver.py
+[13.091s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py
+[13.102s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py
+[13.110s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware//bumperbot_interface.xml
+[13.119s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[13.127s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[13.138s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[13.150s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[13.160s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[13.168s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/mpu6050_driver.py
+[13.177s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/bin/simple_serial_receiver
+[13.185s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/bin/simple_serial_transmitter
+[13.198s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[13.207s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[13.215s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[13.225s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[13.233s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[13.243s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[13.255s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[13.267s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[13.278s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[13.286s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[13.295s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[13.302s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[13.310s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[13.322s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[13.329s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[13.337s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.344s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[13.354s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.365s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[13.374s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[13.383s] -- Symlinking: /home/ilhan/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[13.430s] Listing '/home/ilhan/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware'...
+[13.430s] Compiling '/home/ilhan/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py'...
+[13.430s] Compiling '/home/ilhan/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/mpu6050_driver.py'...
+[13.430s] Compiling '/home/ilhan/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py'...
+[13.430s] Compiling '/home/ilhan/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py'...
+[13.438s] Invoked command in '/home/ilhan/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ilhan/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/ilhan/bumperbot_ws/build/bumperbot_firmware

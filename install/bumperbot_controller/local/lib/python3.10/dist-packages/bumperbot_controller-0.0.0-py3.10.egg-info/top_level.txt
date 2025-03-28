@@ -1,1 +1,1 @@
-bumperbot_controller
+/home/ilhan/bumperbot_ws/build/bumperbot_controller/ament_cmake_python/bumperbot_controller/bumperbot_controller.egg-info/top_level.txt

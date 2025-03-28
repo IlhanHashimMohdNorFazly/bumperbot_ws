@@ -1,1 +1,1 @@
-rclcpp;std_msgs;rcl_interfaces;bumperbot_msgs;geometry_msgs;tf2;tf2_ros;turtlesim;rclcpp_lifecycle;ament_lint_auto;ament_lint_common
+/home/ilhan/bumperbot_ws/build/bumperbot_cpp_examples/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples

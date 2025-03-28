@@ -1,3 +1,1 @@
-
-# Response
-int64 sum
+/home/ilhan/bumperbot_ws/build/bumperbot_msgs/rosidl_cmake/srv/AddTwoInts_Response.msg
