@@ -13,6 +13,7 @@
 /home/ilhan/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
 /home/ilhan/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/global_localization.launch.py
 /home/ilhan/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+/home/ilhan/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/amcl.yaml
 /home/ilhan/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
 /home/ilhan/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
 /home/ilhan/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
